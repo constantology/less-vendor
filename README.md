@@ -6,7 +6,7 @@ hacky module to make nice with not needing a **god damn** mixin for every **god 
 
 - This is totally **not tested!**
 - The `__vendor__` crud will not be present in your compiled CSS, for now it's a necessary evil.
-- the less parser doesn't give you the property being parsed which is why you need to duplicate the property name when using [vendor-prefix-values] function.
+- the less parser doesn't give you the property being parsed which is why you need to duplicate the property name when using [vendor prefix values](#vendor-prefix-values) function.
 - there are no checks for supported prefixes, `-[moz|ms|o|webkit]-` prefixes will be created indiscriminately.
 - if you got a better solution — for doing this using less css, not sass, stylus or any other pre-compiler — let me know and I'll kill this repo and use that instead.
 
