@@ -1,15 +1,14 @@
 # less-vendor
- <!--[![build status](https://secure.travis-ci.org/constantology/less-vendor.png)](http://travis-ci.org/constantology/less-vendor)-->
 
- hacky module to make nice with not needing a **god damn** mixin for every **god damn** vendor prefixed property!
+hacky module to make nice with not needing a **god damn** mixin for every **god damn** vendor prefixed property!
 
- ## IMPORTANT
+## IMPORTANT
 
- This is totally **not tested!**
+This is totally **not tested!**
 
- ## vendor prefix properties
+## vendor prefix properties
 
- ``` css
+``` css
 
     .selector {
        __vendor__ : property( transition, all 400ms ease-in-out );
@@ -19,7 +18,7 @@
 
 generates
 
- ``` css
+``` css
 
     .selector {
            -moz-transition    : all 400ms ease-in-out;
@@ -31,9 +30,9 @@ generates
 
 ```
 
- ## vendor prefix values
+## vendor prefix values
 
- ``` css
+``` css
 
     .selector {
        background-image : prefix( background-image, linear-gradient, e( "180deg, #000 0%, #fff 100%" )  );
@@ -43,7 +42,7 @@ generates
 
 generates
 
- ``` css
+``` css
 
     .selector {
            background-image : -moz-linear-gradient( 180deg, #000 0%, #fff 100% );
@@ -55,9 +54,9 @@ generates
 
 ```
 
- ## vendor combo type stuff
+## vendor combo type stuff
 
- ``` css
+``` css
 
     .selector {
        __vendor__ : property( transition, e( "-vendor-transform 400ms ease-in-out" ) );
@@ -67,7 +66,7 @@ generates
 
 generates
 
- ``` css
+``` css
 
     .selector {
            -moz-transition    : -moz-transform 400ms ease-in-out;
