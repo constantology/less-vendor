@@ -6,6 +6,28 @@ hacky module to make nice with not needing a **god damn** mixin for every **god 
 
 This is totally **not tested!**
 
+## installation and usage
+
+### install
+
+``` shell
+
+    npm install -g less-vendor
+
+```
+
+### use
+
+``` shell
+
+    lessv "PATH/TO.less" "PATH/TO.css"
+
+```
+
+it's pretty much a straight out rip of the `lessc` CLI program, so the same options apply.
+
+`lessv` will display the same help options as `lessc`.
+
 ## vendor prefix properties
 
 ``` css
