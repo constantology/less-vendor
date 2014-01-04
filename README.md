@@ -103,3 +103,5 @@ generates
        }
 
 ```
+
+![Analytics](https://ga-beacon.appspot.com/UA-15072756-2/constantology/less-vendor/readme)
